@@ -65,7 +65,9 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run streamlit.py
-🧠 How It Works
+
+```
+##🧠 How It Works
 Uses PubChem and CACTUS APIs to fetch molecule data
 
 Uses RDKit for parsing SMILES and calculating chemical descriptors
@@ -74,7 +76,7 @@ Calculates drug-likeness using Lipinski's Rule of Five
 
 Visualizes chemical structures and properties using Plotly, py3Dmol, and Streamlit components
 
-📂 Project Structure
+##📂 Project Structure
 plaintext
 Copy
 Edit
@@ -83,38 +85,17 @@ Edit
 ├── requirements.txt          # Dependencies
 ├── assets/                   # (Optional) Custom logos, screenshots
 └── README.md                 # You're here!
-✅ Example Inputs
-text
-Copy
-Edit
+##✅ Example Inputs
 aspirin
 C9H8O4
 BSYNRYMUTXBXSQ-UHFFFAOYSA-N
 O=C(C)Oc1ccccc1C(=O)O
-📑 License
+##📑 License
 MIT License © shubhae
 
-🌟 Star if useful!
+##🌟 Star if useful!
 If this helped your chemoinformatics or bioinformatics workflow, consider giving it a ⭐️ on GitHub!
 
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want:
-- a downloadable `.md` file,
-- deployment setup for Streamlit Cloud or HuggingFace Spaces,
-- or the badges/screenshots added properly.
-
-Should I export this as a file for you?
 
 
 
-
-
-
-
-
-Ask ChatGPT
