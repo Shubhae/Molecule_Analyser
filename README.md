@@ -65,37 +65,48 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run streamlit.py
-
 ```
-##🧠 How It Works
-Uses PubChem and CACTUS APIs to fetch molecule data
 
-Uses RDKit for parsing SMILES and calculating chemical descriptors
+---
 
-Calculates drug-likeness using Lipinski's Rule of Five
+## 🧠 How It Works
 
-Visualizes chemical structures and properties using Plotly, py3Dmol, and Streamlit components
+- Uses **PubChem** and **CACTUS** APIs to fetch molecule data  
+- Uses **RDKit** for parsing SMILES and calculating chemical descriptors  
+- Calculates **drug-likeness** using **Lipinski's Rule of Five**  
+- Visualizes chemical structures and properties using **Plotly**, **py3Dmol**, and **Streamlit components**
 
-##📂 Project Structure
-plaintext
-Copy
-Edit
+---
+
+## 📂 Project Structure
+
+```plaintext
 .
 ├── streamlit.py              # Main app
 ├── requirements.txt          # Dependencies
 ├── assets/                   # (Optional) Custom logos, screenshots
 └── README.md                 # You're here!
-##✅ Example Inputs
+```
+
+---
+
+## ✅ Example Inputs
+
+```text
 aspirin
 C9H8O4
 BSYNRYMUTXBXSQ-UHFFFAOYSA-N
 O=C(C)Oc1ccccc1C(=O)O
-##📑 License
-MIT License © shubhae
+```
 
-##🌟 Star if useful!
-If this helped your chemoinformatics or bioinformatics workflow, consider giving it a ⭐️ on GitHub!
+---
 
+## 📑 License
 
+MIT License © [shubhae](https://github.com/shubhae)
 
+---
 
+## 🌟 Star if useful!
+
+If this project helped you in chemoinformatics or bioinformatics workflows, consider giving it a ⭐️ on GitHub!
