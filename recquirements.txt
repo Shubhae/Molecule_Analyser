@@ -1,0 +1,9 @@
+streamlit
+requests
+pandas
+numpy
+plotly
+openpyxl # For Excel export
+rdkit-pypi # For RDKit functionality
+scipy # For statistical analysis (if used beyond basic pandas)
+scikit-learn # For clustering/scaling (if used)
